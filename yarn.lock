@@ -5415,31 +5415,31 @@
   dependencies:
     "@sinonjs/commons" "^1.7.0"
 
-"@snowplow/browser-tracker-core@3.1.6":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/@snowplow/browser-tracker-core/-/browser-tracker-core-3.1.6.tgz#660e62311d5aafa9769d3e8ac315bba1939ff0ca"
-  integrity sha512-IOsQaI5EOaaOHxxgIGAeSZIR7oM8sre0dDjgBwqsUFpQgpha2/c5mP0ui59hXhBzGFlXA+10wml50OXx/YwMCw==
+"@snowplow/browser-tracker-core@3.12.0":
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/@snowplow/browser-tracker-core/-/browser-tracker-core-3.12.0.tgz#eb9bce60c6ecd2c51530fda1c893f75a09048e3b"
+  integrity sha512-niMi23izU6irxeld9RL4LkFGwDRQ79vpV3cBcN8ip7X43/a7FS7PVmyP5r8Er1jhaYvMWah3bs8ltURJrvbSGw==
   dependencies:
-    "@snowplow/tracker-core" "3.1.6"
+    "@snowplow/tracker-core" "3.12.0"
     sha1 "^1.1.1"
-    tslib "^2.3.0"
+    tslib "^2.3.1"
     uuid "^3.4.0"
 
-"@snowplow/browser-tracker@^3.1.6":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/@snowplow/browser-tracker/-/browser-tracker-3.1.6.tgz#f8f41b12c79e9886fda7d10924a6a487112d5cf6"
-  integrity sha512-6VY/3cgEvRzE6u52n0OSZR9pSjFzud4cICNIZrH2YVcF8/lCrHKscatBVffALrLShSglSB4FZPG9CtfPCAivow==
+"@snowplow/browser-tracker@^3.10.1":
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/@snowplow/browser-tracker/-/browser-tracker-3.12.0.tgz#861c091d78e18ca4b08243db108181df90f955e6"
+  integrity sha512-CKEAebAZR6TFFEmwOkTdk7Qv4U0liBb6uGPi3ET5+jbmHyAmCOsjlD39vFFUxfV4ySTLtzEUXQHL2FLQbAsiYg==
   dependencies:
-    "@snowplow/browser-tracker-core" "3.1.6"
-    "@snowplow/tracker-core" "3.1.6"
-    tslib "^2.3.0"
+    "@snowplow/browser-tracker-core" "3.12.0"
+    "@snowplow/tracker-core" "3.12.0"
+    tslib "^2.3.1"
 
-"@snowplow/tracker-core@3.1.6":
-  version "3.1.6"
-  resolved "https://registry.yarnpkg.com/@snowplow/tracker-core/-/tracker-core-3.1.6.tgz#f1f87782e64a2d59ab881cbb7e6e1a1e43972283"
-  integrity sha512-b2O1xXEqQRzuhIol+3mhk9Xvz/smiW+6pQ3W1fVWonXrYoKtTyak2K+98phj2e0V+H/jUXeviH8adLEdbRkCYA==
+"@snowplow/tracker-core@3.12.0":
+  version "3.12.0"
+  resolved "https://registry.yarnpkg.com/@snowplow/tracker-core/-/tracker-core-3.12.0.tgz#31b67dd91a7373aba837ab41317c025f01181249"
+  integrity sha512-AzEW0oJeCIA1AVHu1dllkkQPdYMasCFHT5O50V92TnB936B56KJ8XxOHzw1FOU9S1s76M93truUvHpvMZPOlGw==
   dependencies:
-    tslib "^2.3.0"
+    tslib "^2.3.1"
     uuid "^3.4.0"
 
 "@storybook/addon-a11y@^6.5.16":
@@ -24023,7 +24023,7 @@ tslib@^2.0.0:
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.0.tgz#803b8cdab3e12ba581a4ca41c8839bbb0dacb09e"
   integrity sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==
 
-tslib@^2.0.1, tslib@^2.1.0, tslib@^2.3.0:
+tslib@^2.0.1, tslib@^2.1.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.3.1.tgz#e8a335add5ceae51aa261d32a490158ef042ef01"
   integrity sha512-77EbyPPpMz+FRFRuAFlWMtmgUWGe9UOG2Z25NqCwiIjRhOf5iKGuzSe5P2w1laq+FkRy4p+PCuVkJSGkzTEKVw==
@@ -24032,6 +24032,11 @@ tslib@^2.0.3:
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+
+tslib@^2.3.1:
+  version "2.5.3"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.5.3.tgz#24944ba2d990940e6e982c4bea147aba80209913"
+  integrity sha512-mSxlJJwl3BMEQCUNnxXBU9jP4JBktcEGhURcPR6VQVlnP0FdDEsIaz0C35dXNGLyRfrATNofF0F5p2KPxQgB+w==
 
 tslib@^2.4.0:
   version "2.5.0"
